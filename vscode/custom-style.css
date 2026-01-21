@@ -1,0 +1,254 @@
+* {
+    /* font-family:  monospace; */
+    /* font-family: B612 Mono; */
+    /* font-family: Monoid; */
+    font-family: Iosevka;
+    /* font-family: Spleen 32x64; */
+}   
+
+.actions-container.highlight-toggled {
+    display: none !important;
+}
+
+.editor .title .actions-container .action-item a {
+    visibility: hidden;
+}
+
+.editor .title .actions-container {
+    flex-direction: row-reverse;
+}
+
+.monaco-workbench .part>.header-or-footer, .monaco-workbench .part>.title {
+    height: 28px !important;
+    padding-left: 0px !important;
+}
+
+.monaco-workbench .part>.title>.title-label {
+    line-height: 30px !important;
+}
+
+/* for auto-complete css */
+.monaco-editor .suggest-widget {
+    /* background-color: #232429 !important; */
+    border: 1px solid #63697355 !important;
+    min-height: fit-content !important;
+}
+
+/* Project title's style at the top. */
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+    border: none !important;
+    background: transparent !important;
+} 
+/* .monaco-workbench .part.titlebar>.titlebar-container {
+    background-color: #181616 !important; 
+} */
+
+
+/* File Explorer Selected Item */
+/* .monaco-list.list_id_1 .monaco-list-row.selected {
+    opacity: 0.3 !important;
+} */
+
+
+.monaco-editor-hover,
+.monaco-hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.45) !important;
+    /* padding: 8px !important; */
+    /* background-color: #232429 !important; */
+    backdrop-filter: blur(3px) !important;
+    /* border-radius: 6px !important; */
+    /* border: 1px solid #63697355 !important; */
+
+}
+
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+    display: block !important;
+    width: auto !important;
+} 
+
+
+
+/* Search icon */
+.search-icon {
+    display: none !important;
+}
+
+.codicon-search::before {
+    display: none !important;
+}
+
+
+.codicon-arrow-right,
+.codicon-arrow-left {
+    display: none !important;
+}
+
+
+
+#command-blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .15);
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(8px);
+}
+
+.monaco-workbench .activitybar {
+    display: none !important;
+}
+
+.monaco-workbench .sidebar .title-actions {
+    display: none !important;
+}
+
+.monaco-editor .cursor {
+    background: linear-gradient(to bottom, #7f00ff, #e100ff) !important;
+    /* color: #292D3E !important; */
+}
+
+.quick-input-widget {
+    transform: translateY(-50%) !important;
+    top: 50% !important;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.45) !important;
+    padding: 20px 20px 28px 20px !important;
+    background-color: #6f7072 !important;
+    /* background-color: #232429 !important; */
+    border-radius: 6px !important;
+    border: 1px solid #63697355 !important;
+    z-index: 1000000 !important;
+}
+
+.monaco-workbench::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    z-index: 999999;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    visibility: hidden;
+}
+
+.quick-input-widget:not(:empty)~.monaco-workbench::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.quick-input-list {
+    max-height: calc(50vh - 60px) !important;
+    overflow-y: auto !important;
+}
+
+.quick-input-list .monaco-list {
+    /* background-color: #232429 !important; */
+    /* background-color: #a0a0a1 !important; */
+    background-color: #6f7072 !important;
+}
+
+.quick-input-list .monaco-list-row {
+    color: #C6D0F5 !important;
+    /* background-color: #232429 !important; */
+    /* background-color: #a0a0a1 !important; */
+    background-color: #6f7072 !important;
+}
+
+.quick-input-list .monaco-list-row.focused {
+    background-color: #c4c4c4 !important;
+    color: #232323 !important;
+}
+
+.quick-input-list .monaco-list-row:hover:not(.focused) {
+    background-color: #363a4f !important;
+}
+
+/* .monaco-scrollable-element .shadow.top {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .75) !important;
+    top: -3px !important;
+} */
+
+.scrollbar.vertical .slider {
+    width: 2px !important;
+    background: #232323 !important;
+    border-radius: 5px !important;
+    margin-left: 10px !important;
+}
+
+.scrollbar.horizontal .slider {
+    background: #232323 !important;
+    border-radius: 5px !important;
+    height: 2px !important;
+}
+
+.scrollbar.horizontal {
+    position: absolute !important;
+    height: 2px !important;
+    bottom: 3px !important;
+    left: 0px !important;
+}
+
+.quick-input-title {
+    color: #C6D0F5 !important;
+}
+
+.monaco-inputbox {
+    background-color: #232429 !important;
+}
+
+.monaco-inputbox input {
+    background-color: #232429 !important;
+    color: #C6D0F5 !important;
+}
+
+.quick-input-list .monaco-list:not(.mouse-support) {
+    border: none !important;
+}
+
+.decorationsOverviewRuler {
+    display: none !important;
+}
+
+.quick-input-list .monaco-list:not(.mouse-support) .monaco-list-row:hover:not(.focused) {
+    background-color: #a8aab1 !important;
+}
+
+.monaco-pane-view .pane>.pane-header h3.title {
+    font-size: 16.5px !important;
+}
+
+.monaco-pane-view .pane>.pane-header>.title {
+    text-transform: none !important;
+}
+
+.monaco-pane-view .pane>.pane-header {
+    /* background-color: #181616 !important; */
+    color: #a8aab1 !important;
+}
+
+.monaco-workbench .part.sidebar>.title>.title-label h2 {
+    /* text-transform: none !important;
+    padding-left: 12px !important; */
+
+    display: none !important;
+}
+
+.monaco-workbench .pane-composite-part>.header-or-footer>.composite-bar-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* git diff on sidebar */
+.monaco-editor .dirty-diff-added, .monaco-editor .dirty-diff-modified, .monaco-editor .dirty-diff-deleted {
+   display: none;
+}
+
+
+.left-items.items-container, .right-items.items-container {
+    background: #007ACC;
+}

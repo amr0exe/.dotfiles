@@ -1,0 +1,70 @@
+#font-family = FiraCode Nerd Font
+font-family = Iosevka
+font-size = 15
+
+# gtk-titlebar is default terminal topbar with options, |+| on top, 
+# when false its plain
+title = term
+gtk-titlebar = true
+gtk-tabs-location = bottom
+gtk-wide-tabs = false
+
+#theme = BlueBerryPie
+theme = Terafox
+#theme = Hybrid
+
+# putting false removes topbar
+window-decoration = true
+unfocused-split-opacity = .7  
+
+mouse-hide-while-typing = true
+#mouse-scroll-multiplier = 1
+
+#title != <- 
+font-feature = -calt 
+font-feature = -liga 
+font-feature = -dlig
+
+#cursor-opacity = 1
+#cursor-style = block
+cursor-style-blink = false
+cursor-color = purple
+
+adjust-cursor-thickness = 1
+
+#background = #121010
+#background-opacity = 0.4
+
+
+
+#####
+##### KeyBindings
+#####
+
+# adjust sizings
+#keybind = alt+shift+h=resize_split:left,25
+#keybind = alt+shift+l=resize_split:right,25
+
+# vertical || horizontal split
+keybind = ctrl+alt+j=new_split:down
+keybind = ctrl+alt+k=new_split:right
+
+# goTo next Term
+# keybind = ctrl+right_bracket=goto_split:next
+keybind = ctrl+shift+right_bracket=goto_split:next
+
+# Like in tmux, 
+# splitZoom Split_Terminal
+keybind = ctrl+b>n=toggle_split_zoom
+
+# initial window sizing
+window-height =  40
+window-width = 110
+
+# scroll multiplier
+mouse-scroll-multiplier = 3
+
+
+#####
+##### 
+#####

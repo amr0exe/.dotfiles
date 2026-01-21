@@ -1,0 +1,118 @@
+{
+	"editor.minimap.enabled": false,
+	"editor.stickyScroll.enabled": false,
+	"editor.cursorBlinking": "solid",
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"workbench.list.smoothScrolling": false,
+	"editor.renderWhitespace": "none",
+	"workbench.editor.editorActionsLocation": "hidden",
+
+	"vim.insertModeKeyBindings": [
+		{
+			"before": ["j", "j"],
+			"after": ["<Esc>"]
+		}
+	],
+
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{ "before": ["<S-Tab>"], "commands": [":bprevious"]},
+		{ "before": ["Tab"], "commands": [":bnext"]},
+	],
+
+	// "workbench.colorCustomizations": {
+	//      "sideBar.foreground": "#908f92",
+	//       "sideBar.background":"#15141B",
+	//      // "sideBar.background":"#0f0e0e",
+	//  },
+
+	"editor.cursorSmoothCaretAnimation": "off",
+
+	// linenumber & guides
+	"editor.lineNumbers": "relative",
+	"files.enableTrash": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDragAndDrop": false,
+	"workbench.editor.empty.hint": "hidden",
+	"[go]": {
+		"editor.formatOnSave": true
+	},
+	"go.formatTool": "gofmt",
+	"go.inlayHints.rangeVariableTypes": true,
+	"workbench.startupEditor": "none",
+	"workbench.editor.showTabs": "none",
+	"editor.fontSize": 18,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"punctuation.definition.parameters",
+					"variable.parameter",
+					"meta.brace.round"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+		]
+	},
+	"tailwindCSS.includeLanguages": {
+		"plaintext": "html"
+	},
+
+	"window.zoomPerWindow": true,
+	"go.toolsManagement.autoUpdate": true,
+	
+	// tab indent
+	"editor.indentSize": "tabSize",
+	"editor.autoIndent": "advanced",
+	"editor.tabSize": 4,
+	"editor.useTabStops": true,
+
+	// new one 
+	"vscode_custom_css.imports": [
+		"file:///home/amr0exe/.config/vscode/custom-style.css",
+	],
+	"window.titleBarStyle": "custom",
+	// "window.titleSeparator": " __|+|__ ",
+	// "window.titleSeparator": " || ",
+	"window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
+	// "window.title": "${activeEditorShort}",
+
+	"extensions.ignoreRecommendations": true,
+
+	"editor.fontLigatures": true,
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false,
+		"python": false
+	},
+	"lldb.suppressUpdateNotifications": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	
+	// raylib setup
+	"editor.inlayHints.enabled": "off",
+	"clangd.path": "/home/amr0exe/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/19.1.2/clangd_19.1.2/bin/clangd",
+
+	"git.decorations.enabled": false,
+	"diffEditor.renderSideBySide": false ,
+	"editor.renderLineHighlight": "none",
+
+	"hediet.vscode-drawio.resizeImages": null,
+	"haskell.manageHLS": "PATH",
+	"editor.renderControlCharacters": false,
+	"breadcrumbs.enabled": false,
+	"editor.wordWrap": "off",
+	"git.confirmSync": false,
+	"chat.editor.fontSize": 16,
+	"chat.fontSize": 16,
+	"files.autoSave": "afterDelay",
+	"workbench.activityBar.location": "top",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"chat.viewSessions.enabled": false,
+	"workbench.colorTheme": "Visual Studio Dark",
+	"workbench.layoutControl.enabled": false,
+	"window.commandCenter": false,
+}

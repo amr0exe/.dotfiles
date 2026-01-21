@@ -1,0 +1,6 @@
+(unpin! org-roam)
+(package! org-roam-ui)
+(package! consult)
+(package! modus-themes)
+(package! org-modern)
+(package! nerd-icons)
